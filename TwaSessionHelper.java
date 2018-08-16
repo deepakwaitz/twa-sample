@@ -43,7 +43,6 @@ import java.util.List;
  */
 public class TwaSessionHelper implements ServiceConnectionCallback {
     private static final String TAG = TwaSessionHelper.class.getSimpleName();
-    private static final List<String> CHROME_PACKAGES = Arrays.asList("com.chrome.canary");
     private static final TwaSessionHelper INSTANCE = new TwaSessionHelper();
 
     private CustomTabsSession mCustomTabsSession;
