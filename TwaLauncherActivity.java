@@ -23,7 +23,7 @@ import android.support.v7.app.AppCompatActivity;
 public class TwaLauncherActivity extends AppCompatActivity
         implements TwaSessionHelper.TwaSessionCallback {
 
-    private static final String TWA_ORIGIN = "https://svgomg.firebaseapp.com";
+    private static final String TWA_ORIGIN = "https://svgomg.firebaseapp.com";//
     private static final String TARGET_URL = TWA_ORIGIN;
 
     @Override
